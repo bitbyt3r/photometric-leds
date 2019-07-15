@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L local:pam2800 U2
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U2
 U 1 1 5A04D1B7
 P 9150 2000
 F 0 "U2" H 9150 2100 60  0000 C CNN
@@ -72,7 +72,7 @@ $EndComp
 Wire Wire Line
 	10700 1700 10700 2050
 Wire Wire Line
-	10350 2000 10350 2100
+	10350 2000 10350 2050
 Wire Wire Line
 	10700 2350 10700 2450
 Wire Wire Line
@@ -89,10 +89,9 @@ Wire Wire Line
 	10000 2450 10000 2400
 Connection ~ 10350 2050
 Wire Wire Line
-	10000 2100 10000 2000
+	10000 2100 10000 2050
 Wire Wire Line
 	9650 1700 9650 1800
-Connection ~ 10000 1700
 Wire Wire Line
 	9650 2000 9650 2050
 Wire Wire Line
@@ -132,7 +131,7 @@ F 3 "" H 8400 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8650 1800 8550 1800
+	8650 1800 8600 1800
 Wire Wire Line
 	8600 1800 8600 1750
 Connection ~ 8600 1800
@@ -143,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8650 1900
 $Comp
-L local:pam2800 U3
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U3
 U 1 1 5A04E08E
 P 9150 2800
 F 0 "U3" H 9150 2900 60  0000 C CNN
@@ -200,9 +199,7 @@ $EndComp
 Wire Wire Line
 	10700 2500 10700 2850
 Wire Wire Line
-	9650 2500 10700 2500
-Wire Wire Line
-	10350 2800 10350 2900
+	10350 2800 10350 2850
 Wire Wire Line
 	10700 3150 10700 3250
 Wire Wire Line
@@ -219,10 +216,9 @@ Wire Wire Line
 	10000 3250 10000 3200
 Connection ~ 10350 2850
 Wire Wire Line
-	10000 2900 10000 2800
+	10000 2900 10000 2850
 Wire Wire Line
 	9650 2500 9650 2600
-Connection ~ 10000 2500
 Wire Wire Line
 	9650 2800 9650 2850
 Wire Wire Line
@@ -251,7 +247,7 @@ F 3 "" H 8150 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 2600 8550 2600
+	8650 2600 8600 2600
 Wire Wire Line
 	8600 2600 8600 2550
 Connection ~ 8600 2600
@@ -262,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2700 8650 2700
 $Comp
-L local:pam2800 U4
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U4
 U 1 1 5A04E92D
 P 9150 3600
 F 0 "U4" H 9150 3700 60  0000 C CNN
@@ -319,9 +315,7 @@ $EndComp
 Wire Wire Line
 	10700 3300 10700 3650
 Wire Wire Line
-	9650 3300 10700 3300
-Wire Wire Line
-	10350 3600 10350 3700
+	10350 3600 10350 3650
 Wire Wire Line
 	10700 3950 10700 4050
 Wire Wire Line
@@ -338,10 +332,9 @@ Wire Wire Line
 	10000 4050 10000 4000
 Connection ~ 10350 3650
 Wire Wire Line
-	10000 3700 10000 3600
+	10000 3700 10000 3650
 Wire Wire Line
 	9650 3300 9650 3400
-Connection ~ 10000 3300
 Wire Wire Line
 	9650 3600 9650 3650
 Wire Wire Line
@@ -370,7 +363,7 @@ F 3 "" H 8150 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 3400 8550 3400
+	8650 3400 8600 3400
 Wire Wire Line
 	8600 3400 8600 3350
 Connection ~ 8600 3400
@@ -379,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 3400 8150 3500
 $Comp
-L local:pam2800 U5
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U5
 U 1 1 5A04E97A
 P 9150 4400
 F 0 "U5" H 9150 4500 60  0000 C CNN
@@ -436,9 +429,7 @@ $EndComp
 Wire Wire Line
 	10700 4100 10700 4450
 Wire Wire Line
-	9650 4100 10700 4100
-Wire Wire Line
-	10350 4400 10350 4500
+	10350 4400 10350 4450
 Wire Wire Line
 	10700 4750 10700 4850
 Wire Wire Line
@@ -455,10 +446,9 @@ Wire Wire Line
 	10000 4850 10000 4800
 Connection ~ 10350 4450
 Wire Wire Line
-	10000 4500 10000 4400
+	10000 4500 10000 4450
 Wire Wire Line
 	9650 4100 9650 4200
-Connection ~ 10000 4100
 Wire Wire Line
 	9650 4400 9650 4450
 Wire Wire Line
@@ -487,7 +477,7 @@ F 3 "" H 8150 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 4200 8550 4200
+	8650 4200 8600 4200
 Wire Wire Line
 	8600 4200 8600 4150
 Connection ~ 8600 4200
@@ -498,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4300 8650 4300
 $Comp
-L local:pam2800 U6
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U6
 U 1 1 5A04EC24
 P 9150 5200
 F 0 "U6" H 9150 5300 60  0000 C CNN
@@ -555,9 +545,7 @@ $EndComp
 Wire Wire Line
 	10700 4900 10700 5250
 Wire Wire Line
-	9650 4900 10700 4900
-Wire Wire Line
-	10350 5200 10350 5300
+	10350 5200 10350 5250
 Wire Wire Line
 	10700 5550 10700 5650
 Wire Wire Line
@@ -574,10 +562,9 @@ Wire Wire Line
 	10000 5650 10000 5600
 Connection ~ 10350 5250
 Wire Wire Line
-	10000 5300 10000 5200
+	10000 5300 10000 5250
 Wire Wire Line
 	9650 4900 9650 5000
-Connection ~ 10000 4900
 Wire Wire Line
 	9650 5200 9650 5250
 Wire Wire Line
@@ -606,7 +593,7 @@ F 3 "" H 8150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 5000 8550 5000
+	8650 5000 8600 5000
 Wire Wire Line
 	8600 5000 8600 4950
 Connection ~ 8600 5000
@@ -622,7 +609,7 @@ U 1 1 5A04F65C
 P 6200 2850
 F 0 "J2" H 6200 3050 50  0000 C CNN
 F 1 "CONN_02X03" H 6200 2650 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_Picoflex_90325_06x1.27mm_Straight" H 6200 1650 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_Picoflex_90814_06x1.27mm_Straight" H 6200 1650 50  0001 C CNN
 F 3 "" H 6200 1650 50  0001 C CNN
 	1    6200 2850
 	1    0    0    -1  
@@ -701,7 +688,7 @@ F 3 "" H 6200 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 2700 6500 2850
+	6500 2700 6500 2750
 Wire Wire Line
 	6500 2850 6450 2850
 Wire Wire Line
@@ -712,7 +699,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2950 6500 3150
 Wire Wire Line
-	6500 3150 5900 3150
+	6500 3150 6200 3150
 Wire Wire Line
 	5900 3150 5900 2950
 Wire Wire Line
@@ -741,7 +728,7 @@ F 3 "" H 2900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5A0545A7
 P 2750 3150
 F 0 "C2" H 2775 3250 50  0000 L CNN
@@ -752,7 +739,7 @@ F 3 "" H 2750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C1
+L Device:C C1
 U 1 1 5A054614
 P 2550 3150
 F 0 "C1" H 2575 3250 50  0000 L CNN
@@ -918,7 +905,7 @@ $EndComp
 Wire Wire Line
 	5300 4150 5300 4100
 $Comp
-L atmel:ATTINY20-SSU U1
+L MCU_Microchip_ATtiny:ATtiny20-SSU U1
 U 1 1 5A0674A9
 P 4100 3150
 F 0 "U1" H 4100 4017 50  0000 C CNN
@@ -943,10 +930,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 3800 5300 3750
 Wire Wire Line
-	5250 3750 5950 3750
+	5250 3750 5300 3750
 Connection ~ 5300 3750
 Wire Wire Line
-	5250 3550 5950 3550
+	5250 3550 5850 3550
 Wire Wire Line
 	5950 3650 5750 3650
 Wire Wire Line
@@ -1014,15 +1001,8 @@ Wire Wire Line
 	5450 2100 5450 2750
 Wire Wire Line
 	5450 2750 5250 2750
-Wire Wire Line
-	9650 1700 10700 1700
-Connection ~ 10350 1700
-Connection ~ 10350 2500
-Connection ~ 10350 3300
-Connection ~ 10350 4100
-Connection ~ 10350 4900
 $Comp
-L mechanical:Mounting_Hole_PAD MK1
+L Mechanical:MountingHole_Pad MK1
 U 1 1 5A06C830
 P 3050 4750
 F 0 "MK1" H 3150 4801 50  0000 L CNN
@@ -1077,11 +1057,11 @@ F 3 "" H 3050 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 4950 3050 4850
+	3050 4950 3050 4900
 Wire Wire Line
 	3300 4850 3300 4900
 Wire Wire Line
-	3050 4900 3800 4900
+	3050 4900 3300 4900
 Connection ~ 3050 4900
 Wire Wire Line
 	3550 4900 3550 4850
@@ -1089,4 +1069,58 @@ Connection ~ 3300 4900
 Wire Wire Line
 	3800 4900 3800 4850
 Connection ~ 3550 4900
+Wire Wire Line
+	10350 2050 10350 2100
+Wire Wire Line
+	10000 2050 10000 2000
+Wire Wire Line
+	8600 1800 8550 1800
+Wire Wire Line
+	10350 2850 10350 2900
+Wire Wire Line
+	10000 2850 10000 2800
+Wire Wire Line
+	8600 2600 8550 2600
+Wire Wire Line
+	10350 3650 10350 3700
+Wire Wire Line
+	10000 3650 10000 3600
+Wire Wire Line
+	8600 3400 8550 3400
+Wire Wire Line
+	10350 4450 10350 4500
+Wire Wire Line
+	10000 4450 10000 4400
+Wire Wire Line
+	8600 4200 8550 4200
+Wire Wire Line
+	10350 5250 10350 5300
+Wire Wire Line
+	10000 5250 10000 5200
+Wire Wire Line
+	8600 5000 8550 5000
+Wire Wire Line
+	6500 2750 6500 2850
+Wire Wire Line
+	6200 3150 5900 3150
+Wire Wire Line
+	5300 3750 5950 3750
+Wire Wire Line
+	5850 3550 5950 3550
+Wire Wire Line
+	3050 4900 3050 4850
+Wire Wire Line
+	3300 4900 3550 4900
+Wire Wire Line
+	3550 4900 3800 4900
+Wire Wire Line
+	9650 1700 10700 1700
+Wire Wire Line
+	9650 2500 10700 2500
+Wire Wire Line
+	9650 3300 10700 3300
+Wire Wire Line
+	9650 4100 10700 4100
+Wire Wire Line
+	9650 4900 10700 4900
 $EndSCHEMATC

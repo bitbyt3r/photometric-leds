@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L local:pam2800 U2
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U2
 U 1 1 5A04D1B7
 P 9150 2000
 F 0 "U2" H 9150 2100 60  0000 C CNN
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8650 1900
 $Comp
-L local:pam2800 U3
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U3
 U 1 1 5A04E08E
 P 9150 2800
 F 0 "U3" H 9150 2900 60  0000 C CNN
@@ -262,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2700 8650 2700
 $Comp
-L local:pam2800 U4
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U4
 U 1 1 5A04E92D
 P 9150 3600
 F 0 "U4" H 9150 3700 60  0000 C CNN
@@ -379,7 +379,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 3400 8150 3500
 $Comp
-L local:pam2800 U5
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U5
 U 1 1 5A04E97A
 P 9150 4400
 F 0 "U5" H 9150 4500 60  0000 C CNN
@@ -498,7 +498,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4300 8650 4300
 $Comp
-L local:pam2800 U6
+L photometric-leds-rescue:pam2800-RESCUE-photometric-leds U6
 U 1 1 5A04EC24
 P 9150 5200
 F 0 "U6" H 9150 5300 60  0000 C CNN
@@ -622,7 +622,7 @@ U 1 1 5A04F65C
 P 6200 2850
 F 0 "J2" H 6200 3050 50  0000 C CNN
 F 1 "CONN_02X03" H 6200 2650 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_Picoflex_90325_06x1.27mm_Straight" H 6200 1650 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_Picoflex_90814_06x1.27mm_Straight" H 6200 1650 50  0001 C CNN
 F 3 "" H 6200 1650 50  0001 C CNN
 	1    6200 2850
 	1    0    0    -1  
@@ -1022,54 +1022,54 @@ Connection ~ 10350 3300
 Connection ~ 10350 4100
 Connection ~ 10350 4900
 $Comp
-L mechanical:Mounting_Hole_PAD MK?
+L mechanical:Mounting_Hole_PAD MK1
 U 1 1 5A06C830
 P 3050 4750
-F 0 "MK?" H 3150 4801 50  0000 L CNN
+F 0 "MK1" H 3150 4801 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3150 4710 50  0000 L CNN
-F 2 "" H 3050 4750 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3050 4750 50  0001 C CNN
 F 3 "" H 3050 4750 50  0001 C CNN
 	1    3050 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L mechanical:Mounting_Hole_PAD MK?
+L mechanical:Mounting_Hole_PAD MK2
 U 1 1 5A06C9DE
 P 3300 4750
-F 0 "MK?" H 3400 4801 50  0000 L CNN
+F 0 "MK2" H 3400 4801 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3400 4710 50  0000 L CNN
-F 2 "" H 3300 4750 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3300 4750 50  0001 C CNN
 F 3 "" H 3300 4750 50  0001 C CNN
 	1    3300 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L mechanical:Mounting_Hole_PAD MK?
+L mechanical:Mounting_Hole_PAD MK3
 U 1 1 5A06CA97
 P 3550 4750
-F 0 "MK?" H 3650 4801 50  0000 L CNN
+F 0 "MK3" H 3650 4801 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3650 4710 50  0000 L CNN
-F 2 "" H 3550 4750 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3550 4750 50  0001 C CNN
 F 3 "" H 3550 4750 50  0001 C CNN
 	1    3550 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L mechanical:Mounting_Hole_PAD MK?
+L mechanical:Mounting_Hole_PAD MK4
 U 1 1 5A06CB4B
 P 3800 4750
-F 0 "MK?" H 3900 4801 50  0000 L CNN
+F 0 "MK4" H 3900 4801 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3900 4710 50  0000 L CNN
-F 2 "" H 3800 4750 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via" H 3800 4750 50  0001 C CNN
 F 3 "" H 3800 4750 50  0001 C CNN
 	1    3800 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR020
 U 1 1 5A06CCF6
 P 3050 4950
-F 0 "#PWR?" H 3050 4700 50  0001 C CNN
+F 0 "#PWR020" H 3050 4700 50  0001 C CNN
 F 1 "GND" H 3055 4777 50  0000 C CNN
 F 2 "" H 3050 4950 50  0001 C CNN
 F 3 "" H 3050 4950 50  0001 C CNN
